@@ -1,0 +1,467 @@
+/* 
+html, body {
+    background: #EBE7FF;
+    margin: 0;
+    padding: 0;;
+
+}
+.white-rectangle { */
+    /* background: white;
+    width: 27%;
+    height: 100%; */
+    /* position: absolute;
+width: 37%;
+height: 100%;
+right: 0px;
+top: 0px;
+background: #FFFFFF;
+z-index: 0;
+}
+.home {
+    padding-bottom: 49%;
+} */
+/* Header information  */
+/* .header {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    z-index: 1;
+}
+
+.logo { */
+    /* display: inline-block; */
+    /* font-family: 'Dynalight', cursive;
+    font-size: 72px;
+    vertical-align: top;
+    position: absolute;
+    margin: auto;
+    top: 18px;
+    left: 5%;
+    z-index: 1;
+}
+
+.about { */
+    /* display: inline-block; */
+    /* position: absolute;
+    vertical-align: top; 
+    right: 25%;
+    z-index: 1;
+}
+
+.portfolio { */
+    /* display: inline-block; */
+    /* vertical-align: top;
+    position: absolute;
+    right: 15%;
+    z-index: 1;
+}
+
+.contact {
+    position: absolute; */
+    /* display: inline-block; */
+    /* vertical-align: top;
+    right: 3%;
+    z-index: 1;
+} */
+
+/* Name and Who I am  */
+
+/* .name {
+    font-family: 'Handlee', cursive;
+    font-size: 88px;
+    left: 5%;
+    position: absolute;
+    margin-top: 20%;
+}
+
+.i-am { */
+    /* display: inline-block; */
+    /* font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    left: 5%;
+    position: absolute;
+    vertical-align: top;
+    margin-top: 30%;
+}
+
+.who { */
+    /* display: inline-block; */
+    /* font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    left: 10%;
+    margin-top: 30%;
+    position: absolute;
+    vertical-align: top;
+}
+
+.home-pic {
+    position: absolute;
+    width: 37%;
+    height: 80%;
+    right: 0%;
+    top: 20%; 
+} */
+
+/* About Me  */
+
+/* #about-page {
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+
+.about-me {
+    font-family: 'Handlee', cursive;
+    font-size: 56px;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.circle-pic {
+    height: 300px;
+    padding-left: 10%;
+    padding-bottom: 20%;
+    top: 30%;
+}
+
+.about-text {
+    width: 491px;
+    height: 478px;
+    left: 510px;
+    top: 851px;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  float: right;
+  padding-right: 10%;
+
+} */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: Lato;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: Handlee;
+}
+
+input {
+   text-align: left;
+}
+
+label {
+    left: 20%;
+}
+
+/* Header Information  */
+#header {
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.white-background {
+    background: white;
+}
+
+.purple-background {
+    background: #EBE7FF;
+}
+
+.logo {
+    font-family: Dynalight;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5vw;
+    padding-left: 8%;
+    margin: 0;
+    padding-top: 1%;
+}
+
+.right-header {
+    font-size: 2vw;
+    top: 2%;
+    margin: 0;
+    position: absolute;
+}
+
+.about {
+    right: 26%;
+}
+
+.portfolio {
+    right: 15%;
+}
+
+.contact {
+    right: 2%;
+}
+
+
+/* Left side of the home page  */
+.name {
+    padding-top: 20%;
+    font-size: 7vw;
+    margin: 10% 80% 0% 5%;
+    width: 100%;
+}
+
+.i-am {
+    display: inline-block;
+    font-size: 2.5vw;
+    margin: 0% 0% 30% 5%;
+}
+
+#who {
+    display: inline-block;
+    font-size: 2.5vw;
+    margin: 0% 5% 30% 1%;
+}
+
+.purple-rectangle {
+    display: inline-block;
+    background: #EBE7FF;
+    z-index: -2;
+    padding-right: 9.4%;
+    padding-bottom: 3%;
+}
+
+/* Right side of the home page  */
+
+.home-pic {  
+    width: 35%;
+    height: 75%;
+    margin: auto;
+    z-index: -2;
+}
+
+
+
+/* About Page */
+#about-page {
+    background: white;
+}
+.title {
+    font-size: 7vw;
+    padding-top: 6%;
+    padding-bottom: 5%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.circle-pic {
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.about-text {
+    width: 75%;
+    height: 25%;
+    margin: 0 auto;
+    padding: 5%;
+    text-align: left;
+    font-size: 1.3vw;
+}
+
+.a-btns {
+    text-align: center;
+    padding-bottom: 5%;
+}
+.resume-btn {
+    border-radius: 25px;
+    padding: .75% 1.5%;
+    font-size: 1.1vw;
+    margin: 0.5%;
+    border: 1px solid black;
+    background-color: white;
+    left: 55%;
+    top: 260%;
+}
+
+.resume-btn:hover {
+    background-color: #EBE7FF;
+}
+
+i {
+    padding: 5px;
+}
+
+.linkedin-btn {
+    border-radius: 25px;
+    padding: .75% 1.5%;
+    margin: 0.5%;
+    font-size: 1.1vw;
+    border: 1px solid black;
+    background-color: white;
+    left: 67%;
+    top: 260%;
+}
+
+.linkedin-btn:hover {
+    background-color: #EBE7FF;
+}
+
+.github-btn {
+    border-radius: 25px;
+    padding: .75% 1.5%;
+    font-size: 1.1vw;
+    margin: 0.5%;
+    border: 1px solid black;
+    background-color: white;
+    left: 79.5%;
+    top: 260%;
+}
+.github-btn:hover {
+    background-color: #EBE7FF;
+}
+
+
+/* Portfolio Page  */
+#portfolio-page {
+    background: #EBE7FF;
+}
+.portfolio-title {
+    width: 100%;
+    font-size: 7vw;
+}
+
+.p-rectangle {
+    display: inline-block;
+    width: 40%;
+    height: 50%;
+    border-radius: 10px;
+    margin: 5% 5% 5% 10%;
+}
+
+.text1 {
+    font-family: Helvetica, sans-serif;
+    background: #F5F0ED;
+    color: #3D5361;
+    font-size: 5vw;
+    text-align: center;
+}
+
+.first {
+    font-weight: 600;
+    margin: 20% auto;
+}
+
+.text2 {
+    background: #1E2749;
+    font-family: Roboto, sans-serif;
+    color: #EFF7FF;
+    font-size: 5vw;
+    text-align: center;
+}
+
+.second {
+    font-weight: 600;
+    margin: 20% auto;
+}
+
+.text3 {
+    background: linear-gradient(180deg, rgba(214,219,240,1) 0%, rgba(91,173,203,1) 100%);;
+    font-family: Montserrat, sans-serif;
+    color: #FAF7F7;
+    font-size: 5vw;
+    text-align: center;
+}
+.third {
+    font-weight: 500;
+    margin: 20% auto;
+}
+.design-pic {
+    float: right;
+    margin-top: 5%;
+    font-weight: 300;
+}
+.expresso {
+    width: 30%;
+    margin-right: 10%;
+    font-size: 1.3vw;
+}
+
+.check-btn {
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid black;
+    background-color: white;
+}
+.check-btn:hover{
+    background-color: #EBE7FF;
+}
+
+.moviewatching {
+    width: 30%;
+    margin-right: 10%;
+    font-size: 1.3vw;
+}
+
+.AirX {
+    width: 30%;
+    margin-right: 10%;
+    font-size: 1.3vw;
+}
+
+/* Contact Me Page*/
+.contact-me {
+    background: white;
+}
+
+.contact-title {
+    padding-bottom: 1%;
+}
+
+.contact-bit {
+    text-align: center;
+    font-size: 2.2vw;
+    width: 70%;
+    margin: 0 auto 2%;
+
+}
+.contact-form {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    /* text-align: center; */
+    font-size: 1.8vw;
+    width: 60%;
+    margin: auto;
+}
+
+.submit-btn {
+    border-radius: 25px;
+    padding: 1% 2%;
+    font-size: 2vw;
+    border: 1px solid black;
+    background-color: white;
+    
+    text-align: center;
+
+}
+
+.submit-btn:hover {
+    background-color: #EBE7FF;
+}
+
+.btn {
+    width: 100%;
+    text-align: center;
+    margin: 3% auto 10%;
+    
+}
